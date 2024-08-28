@@ -6,7 +6,7 @@ import bgHeroImg from "../../assets/imgs/hero/bgHeroPattern.png";
 import Button from "../interactives/Button";
 import imgAppStore from "../../assets/imgs/hero/appStore.png";
 import imgGooglePlay from "../../assets/imgs/hero/googlePlay.png";
-import imgLaw from "../../assets/imgs/hero/lawHero.jpg";
+import imgLaw from "../../assets/imgs/hero/lawHero.webp";
 import SectionArea from "../sectionElements/SectionArea";
 import imgPoints from "../../assets/imgs/about/points.png";
 
@@ -107,7 +107,7 @@ export default function Hero() {
                   className="bg-red-500 "
                 /> */}
                 <div
-                  className="rounded-2xl w-full h-[220px] tablet1:h-[300px] tablet2:h-[350px] desktop1:h-[400px] bg-cover bg-center bg-no-repeat"
+                  className="rounded-2xl w-full h-[220px] tablet1:h-[300px] tablet2:h-[350px] desktop1:h-[400px] bg-cover bg-top bg-no-repeat"
                   style={{
                     backgroundImage: `url(${imgLaw})`,
                     backgroundSize: "",
