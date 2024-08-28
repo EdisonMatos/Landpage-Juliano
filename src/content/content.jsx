@@ -117,9 +117,9 @@ const content = {
             <path d="M7 2v4.172a2 2 0 0 0 .586 1.414L12 12l4.414-4.414A2 2 0 0 0 17 6.172V2" />
           </svg>
         ),
-        title: "Previdenciário",
+        title: "Cível",
         subtitle:
-          "Apoio próximo e eficaz para garantir seus direitos previdenciários com dedicação.",
+          "Resguardando seus interesses em cada detalhe, com foco na justiça e na melhor solução para seus conflitos.",
         description: (
           <div>
             0empty <br />
@@ -164,9 +164,9 @@ const content = {
             <rect width="20" height="14" x="2" y="6" rx="2" />
           </svg>
         ),
-        title: "Trabalhista",
+        title: "Previdenciário e Trabalhista",
         subtitle:
-          "Lutando por justiça no seu ambiente de trabalho com comprometimento e empatia.",
+          "Asseguramos seus direitos e benefícios com dedicação, tanto na aposentadoria quanto no ambiente de trabalho.",
         description: (
           <div>
             0empty <br />
