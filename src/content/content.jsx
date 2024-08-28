@@ -344,13 +344,14 @@ const content = {
           alt: `Foto do Instagram do ${infos.name}`,
         },
         miniTag: "MANTENHA-SE INFORMADO",
-        title: "Conecte-se e acompanhe novidades!",
+        title: "Siga-me nas redes sociais!",
         subtitle:
-          "⚖️ Quer ficar por dentro das novidades do mundo jurídico? Siga Spínola e Filgueira Advocacia no Instagram!",
+          "⚖️ Quer ficar por dentro das novidades do mundo jurídico? Siga o Dr Juliano Aleixo no Instagram!",
         paragraph: (
           <p>
-            Em nossas redes, você encontra atualizações sobre Direito Penal,
-            Trabalhista, Consultoria e muito mais!
+            Acompanhe nossas redes para dicas e insights sobre Direito
+            Previdenciário, Trabalhista, Ambiental e muito mais! Não perca a
+            oportunidade de se informar e aprender mais sobre seus direitos.
             <br />
             <br />
             Fique por dentro e esteja sempre um passo à frente com a nossa
