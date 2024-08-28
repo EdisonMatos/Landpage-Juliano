@@ -59,7 +59,7 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ADVOGADO AMBIENTAL E PREVIDENCIÁRIO EM CACOAL - RO",
+      miniTag: "ADVOGADO CÍVEL, AGRÁRIO E AMBIENTAL EM CACOAL - RO",
       title: (
         <h1 className="mb-[16px]">Defendendo seus direitos em todo o Brasil</h1>
       ),
