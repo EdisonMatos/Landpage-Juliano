@@ -28,7 +28,7 @@ export default function About() {
       <p>
         {content.texts.about.modal}
         <br />
-        <p>Quer saber mais sobre nós? 👇</p>
+        <p>Quer saber mais sobre mim? 👇</p>
         <br />
         <div>
           <Button
