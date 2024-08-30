@@ -212,8 +212,7 @@ const content = {
         ),
         title: "Ambiental",
         subtitle:
-          "Protegendo o meio ambiente com paixão e responsabilidade, preservando o futuro para todos.",
-
+          "Buscando a resolução dos seus conflitos de forma responsável e sustentável, preservando o futuro para todos.",
         description: (
           <div>
             0empty <br />
