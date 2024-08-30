@@ -2,7 +2,7 @@ const infos = {
   name: "Dr. Juliano Aleixo",
   slogan: "",
   phone: "(69) 99980-7532",
-  mail: "A definir",
+  mail: "contato@julianoaleixoadvocacia.com.br",
   footerInfos: {
     endereco: (
       <div>
