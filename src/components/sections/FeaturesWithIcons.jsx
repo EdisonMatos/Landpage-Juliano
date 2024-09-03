@@ -36,6 +36,7 @@ export default function FeaturesWithIcons() {
                 icon={content.texts.features.card2.svgIcon}
                 title={content.texts.features.card2.title}
                 paragraph={content.texts.features.card2.subtitle}
+                className="h-full"
               />
             </MotionDivDownToUp>
           </div>
@@ -68,6 +69,7 @@ export default function FeaturesWithIcons() {
                 icon={content.texts.features.card4.svgIcon}
                 title={content.texts.features.card4.title}
                 paragraph={content.texts.features.card4.subtitle}
+                className="h-full"
               />
             </MotionDivDownToUp>
           </div>
