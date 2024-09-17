@@ -5,12 +5,13 @@ import Index from "./pages/Index.jsx";
 import "./index.css";
 import "./styles/backgrounds.css";
 import "./styles/shapeDivs.css";
+import LPTrabalhista from "./pages/LPTrabalhista.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <Router>
     <Routes>
       <Route path="/" element={<Index />} />
-      {/* <Route path="/paper" element={<IndexPaper />} /> */}
+      <Route path="/trabalhista" element={<LPTrabalhista />} />
     </Routes>
   </Router>
 );
