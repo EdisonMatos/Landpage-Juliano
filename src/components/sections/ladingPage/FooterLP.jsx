@@ -8,12 +8,12 @@ export default function FooterLP() {
       <SectionArea paddingTopAndBottom={false}>
         <SectionWrapper>
           <div className="w-full text-center font-mainFont py-[36px] opacity-70">
-            <p>
-              {LpContent.footer.copyrightLine}
-              <br />
-              <br />
-              {LpContent.footer.disclaimer}
-            </p>
+              <p>
+                {LpContent.footer.copyrightLine}
+                <br />
+                <br />
+                {LpContent.footer.disclaimer}
+              </p>
           </div>
         </SectionWrapper>
       </SectionArea>
