@@ -1,5 +1,5 @@
-import bgImg from "../assets/imgs/hero/bgHeroTrabalhista.webp";
-import bgImgAbout from "../assets/imgs/about/aboutImgLp.jpg";
+import bgImg from "../assets/imgs/hero/bgHeroPrevidenciario.webp";
+import bgImgAbout from "../assets/imgs/about/aboutImgPrev.webp";
 import logo from "../assets/imgs/logo/logo.png";
 
 const currentYear = new Date().getFullYear();
@@ -15,7 +15,7 @@ const infos = {
   domain: "julianoaleixoadvocacia.com.br", // Sem "www"
   instagramProfile: "adv.julianoaleixo", // Sem o @
   whatsappDefaultMessage:
-    "Olá! Vim através da sua página sobre direito trabalhista e gostaria de tirar umas dúvidas.",
+    "Olá! Vim através da sua página sobre BPC/LOAS e gostaria de tirar umas dúvidas.",
 };
 
 const LpContent = {
@@ -31,13 +31,12 @@ const LpContent = {
     textArea: {
       title: (
         <h1>
-          Acabou de ser <span className="text-primary">demitido?</span> Não
-          recebeu suas
-          <span className="text-primary"> verbas rescisórias</span>?
+          Sabia que<span className="text-primary"> você </span>
+          pode ter direito ao<span className="text-primary"> BPC/LOAS</span>?
         </h1>
       ),
       subtitle:
-        "Direitos trabalhistas não podem ser ignorados. Nós estamos prontos para agir rápido e buscar o que é seu por direito.",
+        "Descubra como garantir o seu benefício e assegurar uma vida digna para quem mais precisa. Suporte especializado para você e sua família.",
       buttonLabel: "Quero falar com um especialista",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -45,8 +44,8 @@ const LpContent = {
   },
   features: {
     sectionHeader: {
-      miniTag: "DIREITO TRABALHISTA",
-      title: "Cenários onde garantimos sua defesa",
+      miniTag: "CONSIGA SEU BPC/LOAS",
+      title: "Quem pode solicitar?",
     },
     cards: {
       card1: {
@@ -61,16 +60,15 @@ const LpContent = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-history"
+            class="lucide lucide-heart-pulse"
           >
-            <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8" />
-            <path d="M3 3v5h5" />
-            <path d="M12 7v5l4 2" />
+            <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z" />
+            <path d="M3.22 12H9.5l.5-1 2 4.5 2-7 1.5 3.5h5.27" />
           </svg>
         ),
-        title: "Hora extra e Verba rescisória",
+        title: "Idosos em vulnerabilidade social",
         description:
-          "Se você não recebeu pelas horas extras trabalhadas ou sua rescisão foi paga de forma incompleta, entraremos com ação para garantir o pagamento integral e corrigido de seus direitos.",
+          "Se você é idoso ou tem um familiar idoso com mais de 65 anos em situação de vulnerabilidade social e que não cumpre os critérios para percepção de aposentadoria, o BPC/LOAS é seu direito.",
       },
       card2: {
         icon: (
@@ -84,16 +82,18 @@ const LpContent = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-triangle-alert"
+            class="lucide lucide-accessibility"
           >
-            <path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3" />
-            <path d="M12 9v4" />
-            <path d="M12 17h.01" />
+            <circle cx="16" cy="4" r="1" />
+            <path d="m18 19 1-7-6 1" />
+            <path d="m5 8 3-3 5.5 3-2.36 3.5" />
+            <path d="M4.24 14.5a5 5 0 0 0 6.88 6" />
+            <path d="M13.76 17.5a5 5 0 0 0-6.88-6" />
           </svg>
         ),
-        title: "Insalubridade e Periculosidade",
+        title: "Pessoas com deficiência / Doenças graves",
         description:
-          "Buscaremos na justiça o adicional de insalubridade ou periculosidade que a empresa deixou de pagar, cobrando tudo que é devido.",
+          "Se você ou um familiar tem uma deficiência ou uma doença grave. Saiba que o BPC pode ser um direito seu. Solicite uma analise do seu caso.",
       },
       card3: {
         icon: (
@@ -107,17 +107,17 @@ const LpContent = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-frown"
+            class="lucide lucide-baby"
           >
-            <circle cx="12" cy="12" r="10" />
-            <path d="M16 16s-1.5-2-4-2-4 2-4 2" />
-            <line x1="9" x2="9.01" y1="9" y2="9" />
-            <line x1="15" x2="15.01" y1="9" y2="9" />
+            <path d="M9 12h.01" />
+            <path d="M15 12h.01" />
+            <path d="M10 16c.5.3 1.2.5 2 .5s1.5-.2 2-.5" />
+            <path d="M19 6.3a9 9 0 0 1 1.8 3.9 2 2 0 0 1 0 3.6 9 9 0 0 1-17.6 0 2 2 0 0 1 0-3.6A9 9 0 0 1 12 3c2 0 3.5 1.1 3.5 2.5s-.9 2.5-2 2.5c-.8 0-1.5-.4-1.5-1" />
           </svg>
         ),
-        title: "Assédio Moral",
+        title: "Crianças com Autismo",
         description:
-          "Sofreu abusos no trabalho? Saiba que é possível buscar judicialmente a reparação pelos danos sofridos, garantindo justiça e dignidade nas relações de trabalho.",
+          "Se você é pai de uma criança com autismo, saiba que o BPC pode ser um direito do seu filho devido aos custos com terapias e acompanhamentos médicos.",
       },
       card4: {
         icon: (
@@ -131,16 +131,15 @@ const LpContent = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-circle-dollar-sign"
+            class="lucide lucide-ban"
           >
             <circle cx="12" cy="12" r="10" />
-            <path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8" />
-            <path d="M12 18V6" />
+            <path d="m4.9 4.9 14.2 14.2" />
           </svg>
         ),
-        title: "Atraso Salarial",
+        title: "Benefício negado ou cancelado",
         description:
-          "Acionamos judicialmente a empresa para que os valores sejam pagos com correção, assegurando seu sustento sem mais demora.",
+          "Se o seu pedido foi indeferido ou o benefício foi cancelado injustamente, recorremos à justiça para restabelecer seu direito ao benefício.",
       },
     },
   },
@@ -151,18 +150,19 @@ const LpContent = {
       alt: "Imagem ilustrativa",
     },
     sectionHeader: {
-      miniTag: "TRADIÇÃO EM DIREITO TRABALHISTA",
+      miniTag: "TRADIÇÃO EM DIREITO PREVIDENCIÁRIO",
       title: "Comprometimento e agilidade",
     },
     paragraph: (
       <p>
         Na minha rotina diária, entendo que rapidez é fundamental para nossos
-        clientes, especialmente em questões trabalhistas. Por isso, atuo de
+        clientes, especialmente em questões previdenciárias. Por isso, atuo de
         forma ágil e estratégica, sem comprometer a qualidade. Com foco em
         garantir que seus direitos sejam resguardados com eficiência e
         determinação.
         <br />
-        <br /> Independentemente do seu problema trabalhista, estou pronto para
+        <br />
+        Independentemente do seu problema previdenciário, estou pronto para
         oferecer a melhor solução jurídica. Entre em contato com Juliano Aleixo
         Advocacia e veja como podemos ser decisivos na defesa dos seus direitos.
       </p>
@@ -188,22 +188,16 @@ const LpContent = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-brain"
+            class="lucide lucide-lightbulb"
           >
-            <path d="M12 5a3 3 0 1 0-5.997.125 4 4 0 0 0-2.526 5.77 4 4 0 0 0 .556 6.588A4 4 0 1 0 12 18Z" />
-            <path d="M12 5a3 3 0 1 1 5.997.125 4 4 0 0 1 2.526 5.77 4 4 0 0 1-.556 6.588A4 4 0 1 1 12 18Z" />
-            <path d="M15 13a4.5 4.5 0 0 1-3-4 4.5 4.5 0 0 1-3 4" />
-            <path d="M17.599 6.5a3 3 0 0 0 .399-1.375" />
-            <path d="M6.003 5.125A3 3 0 0 0 6.401 6.5" />
-            <path d="M3.477 10.896a4 4 0 0 1 .585-.396" />
-            <path d="M19.938 10.5a4 4 0 0 1 .585.396" />
-            <path d="M6 18a4 4 0 0 1-1.967-.516" />
-            <path d="M19.967 17.484A4 4 0 0 1 18 18" />
+            <path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5" />
+            <path d="M9 18h6" />
+            <path d="M10 22h4" />
           </svg>
         ),
-        title: "Estratégia personalizada para garantir seus direitos",
+        title: "Estratégia personalizada para garantir seu BPC/LOAS",
         description:
-          "Oferecemos uma análise detalhada do seu caso trabalhista, criando a melhor estratégia visando a efetivação do seu direito.",
+          "Vamos examinar seu pedido de BPC/LOAS com atenção e cuidado. Juntos, vamos criar uma estratégia personalizada para garantir que você receba o benefício que merece. Conte com nossa ajuda em cada passo do caminho!",
       },
       card2: {
         icon: (
@@ -226,9 +220,9 @@ const LpContent = {
             <path d="m17.5 15.5 2-2" />
           </svg>
         ),
-        title: "Soluções sob medida para o seu problema",
+        title: "Soluções sob medida para seu BPC/LOAS",
         description:
-          "Desenvolvemos um plano de ação específico, focado em resolver suas questões trabalhistas rapidamente e com resultados concretos. Cada decisão é tomada pensando no seu melhor interesse.",
+          "Elaboramos um plano de ação especialmente para o seu pedido de BPC/LOAS, com o objetivo de resolver tudo de forma rápida e eficiente. Cada passo que damos é pensado para garantir que seus interesses estejam sempre em primeiro lugar. Estamos aqui para ajudar a transformar essa situação em uma solução concreta para você.",
       },
       card3: {
         icon: (
@@ -251,9 +245,9 @@ const LpContent = {
             <path d="M3 4h8" />
           </svg>
         ),
-        title: "Compromisso total com sua causa",
+        title: "Compromisso total com sua aprovação",
         description:
-          "Nos dedicamos inteiramente à sua defesa, lutando pelos seus direitos em cada fase do processo.",
+          "Estamos totalmente comprometidos com o seu pedido de BPC/LOAS, defendendo seus direitos a cada etapa do processo. Com nossa ajuda, você pode ter a certeza de que estamos focados em garantir sua aprovação, cuidando de cada detalhe para que você alcance o resultado desejado.",
       },
       card4: {
         icon: (
@@ -275,9 +269,9 @@ const LpContent = {
             <path d="M7 2v4.172a2 2 0 0 0 .586 1.414L12 12l4.414-4.414A2 2 0 0 0 17 6.172V2" />
           </svg>
         ),
-        title: "Experiência que traz tranquilidade",
+        title: "Experiência que traz confiança",
         description:
-          "Com vasta experiência em casos trabalhistas, seu processo será conduzido com segurança e confiança. Estamos ao seu lado para assegurar que seus direitos sejam respeitados.",
+          "Com vasta experiência em solicitações de BPC/LOAS, estou aqui para garantir que seu processo seja tratado com a máxima segurança e eficiência. Estarei ao seu lado em cada passo, cuidando para que seus direitos sejam respeitados e que você receba o benefício que merece. Conte comigo para fazer a diferença na sua jornada!",
       },
     },
   },
@@ -285,9 +279,8 @@ const LpContent = {
     bgImg: bgImg,
     sectionHeader: {
       miniTag: "NÃO PERCA MAIS TEMPO",
-      title:
-        "Trabalhador: Busque ajuda de um advogado para garantir os seus direitos trabalhistas!",
-      subtitle: `O escritório Juliano Aleixo Advocacia está pronto para te auxiliar. Nossa equipe especializada em direito trabalhista pode orientá-lo no processo para garantir seu direito, seja por atraso salarial, assédio moral, adicionais devidos e não pagos, não pagamento de horas extras ou verbas rescisórias. Independente da violação de direito, não deixe que essas situações prejudiquem sua moral, sua vida profissional e financeira.`,
+      title: "Garanta seu BPC/LOAS agora mesmo!",
+      subtitle: `O escritório Juliano Aleixo Advocacia está aqui para ajudar você. Nossa equipe especializada em direito previdenciário pode orientá-lo em todo o processo para assegurar que você receba o BPC/LOAS que tem direito. Não deixe que dificuldades financeiras ou burocráticas impeçam você de acessar o benefício que merece.`,
     },
     buttonLabel: "Quero falar com um especialista",
     ctaButtonAriaLabel: "Botão para chamada de ação para contato pelo whatsapp",
