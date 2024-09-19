@@ -15,7 +15,7 @@ const infos = {
   domain: "julianoaleixoadvocacia.com.br", // Sem "www"
   instagramProfile: "adv.julianoaleixo", // Sem o @
   whatsappDefaultMessage:
-    "Olá! Vim através do site de vocês e gostaria de tirar umas dúvidas.",
+    "Olá! Vim através da sua página sobre direito trabalhista e gostaria de tirar umas dúvidas.",
 };
 
 const LpContent = {
