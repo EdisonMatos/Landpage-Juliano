@@ -117,7 +117,7 @@ const LpContent = {
         ),
         title: "Crianças com Autismo",
         description:
-          "Se você é pai de uma criança com autismo, saiba que o BPC pode ser um direito do seu filho devido aos custos com terapias e acompanhamentos médicos.",
+          "Se você é pai ou mãe de uma criança com autismo, saiba que o BPC pode ser um direito do seu filho devido aos custos com terapias e acompanhamentos médicos.",
       },
       card4: {
         icon: (
@@ -222,7 +222,7 @@ const LpContent = {
         ),
         title: "Soluções sob medida para seu BPC/LOAS",
         description:
-          "Elaboramos um plano de ação especialmente para o seu pedido de BPC/LOAS, com o objetivo de resolver tudo de forma rápida e eficiente. Cada passo que damos é pensado para garantir que seus interesses estejam sempre em primeiro lugar. Estamos aqui para ajudar a transformar essa situação em uma solução concreta para você.",
+          "Elaboramos um plano de ação especialmente para o seu pedido de BPC/LOAS, com o objetivo de resolver tudo de forma rápida e eficiente. Cada passo é pensado levando seus interesses e necessidades em primeiro lugar. Estamos aqui para ajudar a transformar essa situação em uma solução concreta para você.",
       },
       card3: {
         icon: (
