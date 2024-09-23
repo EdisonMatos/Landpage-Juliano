@@ -12,10 +12,22 @@ export default function LPPrevidenciario() {
   return (
     <div>
       <Helmet>
-        <title>Direito Previdenciário - Dr. Juliano Aleixo</title>
+        <title>Juliano Aleixo - Especialista em Direito Previdenciário</title>
         <meta
           name="description"
-          content="Consultoria jurídica em direito previdenciário em Cacoal - RO."
+          content="Juliano Aleixo é um especialista em direito previdenciário, oferecendo consultoria e assessoria para questões relacionadas a benefícios do BPC/LOAS, aposentadorias, pensões e outros direitos previdenciários."
+        />
+        <meta
+          name="keywords"
+          content="Direito Previdenciário,
+          Consultoria Previdenciária,
+          Assessoria Jurídica Previdenciária,
+          Advogado Previdenciário Juliano Aleixo,
+          Benefício de Prestação Continuada,
+          BPC/LOAS,
+          Aposentadorias,
+          Pensões,
+          Direitos Previdenciários"
         />
       </Helmet>
       <HeroLP />
