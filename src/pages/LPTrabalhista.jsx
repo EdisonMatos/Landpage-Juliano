@@ -12,10 +12,21 @@ export default function LPTrabalhista() {
   return (
     <div>
       <Helmet>
-        <title>Direito Trabalhista - Dr. Juliano Aleixo</title>
+        <title>Juliano Aleixo - Especialista em Direito Trabalhista</title>
         <meta
           name="description"
-          content="Consultoria jurídica em direito trabalhista em Cacoal - RO."
+          content="Juliano Aleixo é um especialista em direito trabalhista, oferecendo consultoria e assessoria para questões relacionadas a direitos dos trabalhadores, contratos de trabalho, e litígios trabalhistas."
+        />
+        <meta
+          name="keywords"
+          content="Direito Trabalhista,
+          Consultoria Trabalhista,
+          Assessoria Jurídica Trabalhista,
+          Advogado Trabalhista Juliano Aleixo,
+          Direitos dos Trabalhadores,
+          Litígios Trabalhistas,
+          Contratos de Trabalho,
+          Defesa dos Direitos Trabalhistas"
         />
       </Helmet>
       <HeroLP />
