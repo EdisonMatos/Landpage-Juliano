@@ -12,10 +12,10 @@ export default function LPPrevidenciario() {
   return (
     <div>
       <Helmet>
-        <title>Juliano Aleixo - Especialista em Direito Previdenciário</title>
+        <title>Dr. Juliano Aleixo - Especialista em Direito Previdenciário</title>
         <meta
           name="description"
-          content="Juliano Aleixo é um especialista em direito previdenciário, oferecendo consultoria e assessoria para questões relacionadas a benefícios do BPC/LOAS, aposentadorias, pensões e outros direitos previdenciários."
+          content="Dr. Juliano Aleixo é um especialista em direito previdenciário, oferecendo consultoria e assessoria para questões relacionadas a benefícios do BPC/LOAS, aposentadorias, pensões e outros direitos previdenciários."
         />
         <meta
           name="keywords"
