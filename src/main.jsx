@@ -12,36 +12,6 @@ import "./styles/shapeDivs.css";
 function App() {
   return (
     <>
-      <Helmet>
-        <title>Dr. Juliano Aleixo - Site</title>
-        <meta
-          name="description"
-          content="Dr. Juliano Aleixo é advogado em Cacoal - RO."
-        />
-        <meta
-          name="keywords"
-          content="Advogado Previdenciário Cacoal,
-          Direito Ambiental Cacoal,
-          Consultoria Jurídica Previdenciária,
-          Defesa Ambiental,
-          Serviços Jurídicos em Cacoal,
-          Dr. Juliano Aleixo,
-          Advocacia Especializada em Previdência,
-          Direito Ambiental em Rondônia,
-          Consultoria Ambiental Cacoal,
-          Advocacia Previdenciária Rondônia,
-          Direito Ambiental Rondônia,
-          Ação Previdenciária Cacoal,
-          Proteção Jurídica Ambiental,
-          Defesa de Direitos Previdenciários,
-          Serviços Jurídicos Ambientais,
-          Direito de Seguridade Social Cacoal,
-          Consultoria em Seguros e Previdência,
-          Advocacia para Questões Ambientais em Cacoal,
-          Atendimento Jurídico Especializado Cacoal,
-          Direitos Previdenciários em Rondônia,"
-        />
-      </Helmet>
       <Router>
         <Routes>
           <Route path="/" element={<Index />} />
