@@ -12,10 +12,10 @@ export default function LPTrabalhista() {
   return (
     <div>
       <Helmet>
-        <title>Juliano Aleixo - Especialista em Direito Trabalhista</title>
+        <title>Dr. Juliano Aleixo - Especialista em Direito Trabalhista</title>
         <meta
           name="description"
-          content="Juliano Aleixo é um especialista em direito trabalhista, oferecendo consultoria e assessoria para questões relacionadas a direitos dos trabalhadores, contratos de trabalho, e litígios trabalhistas."
+          content="Dr. Juliano Aleixo é um especialista em direito trabalhista, oferecendo consultoria e assessoria para questões relacionadas a direitos dos trabalhadores, contratos de trabalho, e litígios trabalhistas."
         />
         <meta
           name="keywords"
